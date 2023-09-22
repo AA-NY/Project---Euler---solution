@@ -1,0 +1,6 @@
+The `sum_multiples_3_5` function takes one argument: an integer `n`. We
+initialize a variable `total` to `0`. We then loop through all the numbers below `n`,
+checking if each number is a multiple of 3 or 5. If it is, we add it to `total`. Finally,
+we return `total`.
+In the test case, we set `n` to 1000 (as specified in the problem statement). The
+ function returns the sum of all multiples.
