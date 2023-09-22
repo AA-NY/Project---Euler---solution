@@ -1,0 +1,9 @@
+The `sum_even_fibonacci` function takes one argument: an integer `n`.
+We initialize variables `a` and `b` to the first two Fibonacci numbers (`1` and `2`),
+and initialize a variable `total` to `0`. We then loop through the Fibonacci
+sequence, adding each even number to `total`. We update `a` and `b` to the next 
+two Fibonacci numbers using tuple unpacking. We continue looping until `b` is
+greater than or equal to n. Finally, we return total.
+
+In the test case, we set n to `4000000` (as specified in the problem statement). The
+function returns the sum of all even Fibonacci numbers below 4000000, which is 4613732.
