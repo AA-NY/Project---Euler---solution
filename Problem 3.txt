@@ -1,0 +1,13 @@
+This code defines a function `largest_prime_factor` which takes an input
+number `n`. It then iteratively checks for the smallest prime factor and divides `n`
+by that factor until `n` becomes a prime number itself. Finally, it returns the largest
+prime factor.
+
+The code uses a while loop and checks divisibility of `n` by `i`, starting from `2`. If
+`n` is divisible by `i`, it divides `n` by `i` and continues the loop. Otherwise, it 
+increments `i` and continues checking.
+
+After defining the function, we set `number` to the given value in the problem
+description, and then call `largest_prime_factor` with `number` as the 
+argument. The result is stored in the variable `largest_factor`.
+Finally, we print out the result.
