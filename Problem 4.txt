@@ -1,0 +1,8 @@
+In this solution, the is_palindrome` function checks if a given number `n` is a 
+palindrome by converting it to a string and comparing it with its reverse.
+
+The nested `for` loops iterate through all possible combinations of two 3-digit 
+numbers, calculating their product. If the product is a palindrome and larger than 
+the previous largest palindrome, it is stored in the `largest_palindrome` variable.
+
+After checking all possible combinations, the program prints the largest palindrome found.
