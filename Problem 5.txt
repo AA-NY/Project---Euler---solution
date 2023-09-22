@@ -1,0 +1,7 @@
+The `smallest_multiple` function takes an integer `n` as input and returns the 
+smallest positive number that is evenly divisible by all of the numbers from 1 to `n`.
+
+We start with `i = n` and increment it by `n` until we find a number that is 
+divisible by all numbers from 1 to `n`. We check if `i` is divisible by all numbers 
+from 1 to `n` using a generator expression and the `all` function. If all the 
+remainders are 0, we return `i`.
