@@ -1,0 +1,10 @@
+we need to calculate `(1 + 2 + ... + n)^2 - (1^2 + 2^2 + ... + n^2)`.
+The `sum_square_difference` function takes an integer `n` as input and returns 
+the difference between the sum of the squares of the first `n` natural numbers and 
+the square of the sum.
+
+We calculate the sum of the squares of the first `n` natural numbers using a 
+generator expression and the `sum` function. We calculate the square of the sum of 
+the first `n` natural numbers using the `sum` function and the `range` function,
+and then squaring the result using the exponent operator `**`. Finally, we return the 
+difference between the square of the sum and the sum of the squares.
