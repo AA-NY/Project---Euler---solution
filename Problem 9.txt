@@ -1,0 +1,9 @@
+The `pythagorean_triplet` function takes one argument: an integer `n`. We loop 
+through all possible values of `a` and `b` such that `a < b < n - a - b`. We then 
+calculate `c = n - a - b`, and check if `(a, b, c)` is a Pythagorean triplet using 
+the condition `a**2 + b**2 == c**2`. If we find a Pythagorean triplet, we return the 
+product `a * b * c`.
+
+In the test case, we set `n` to 1000 (as specified in the problem statement). The 
+function returns the product of the Pythagorean triplet `(a, b, c)` for which `a + 
+b + c = 1000`, which is 31875000.
