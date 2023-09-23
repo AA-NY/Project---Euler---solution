@@ -1,0 +1,10 @@
+The `largest_product` function takes two arguments: an integer `n` and an 
+integer `k`. We first convert the integer `n` to a list of its digits using a list 
+comprehension. We then loop through all the possible starting positions for a 
+sequence of `k` digits, and calculate the product of those `k` digits using another 
+loop. We keep track of the largest product we have found so far, and return it at the 
+end.
+
+In the test case, we use the given `n`-digit number as a string, and set `k` to 13 (as 
+specified in the problem statement). The function returns the largest product of 13 
+consecutive digits in the number, which is 23514624000.
