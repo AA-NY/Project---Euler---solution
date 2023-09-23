@@ -1,0 +1,13 @@
+The `is_prime` function takes an integer `n` as input and returns `True` if `n` is 
+a prime number, and `False` otherwise. We first check if `n` is less than 2, in which 
+case it is not a prime number. We then loop through all the integers from 2 to the 
+square root of `n`, and check if `n` is divisible by any of them. If it is, then `n` is not 
+a prime number and we return `False`. If we have looped through all the integers 
+without finding a divisor, then `n` is a prime number and we return `True`.
+
+The `nth_prime` function takes an integer `n` as input and returns the `n`th prime 
+number. We initialize a counter `count` to 0 and an integer `i` to 2. We then loop 
+through all the integers starting from 2 and incrementing `i` by 1 each time. If `i` 
+is a prime number, we increment the counter `count` by 1. We continue this process 
+until we have found the `n`th prime number, at which point we return `i - 1` 
+(since we have incremented `i` one extra time after finding the `n`th prime number).
