@@ -1,5 +1,0 @@
-In this solution, we define a function `is_prime` that checks whether a given 
-number `n` is prime or not. We then iterate over all numbers from 2 to 2 million, and 
-if a number is prime, we add it to the `sum_of_primes` variable. Finally, we print the 
-sum of all primes below 2 million. Note that this solution may take a few seconds to 
-run, since we are checking a large number of primes.
