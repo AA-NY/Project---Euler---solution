@@ -63,3 +63,5 @@ def largest_product(grid, adjacent_count):
 adjacent_count = 4
 result = largest_product(grid, adjacent_count)
 print("The largest product of", adjacent_count, "adjacent numbers is:", result)
+
+#The largest product of 4 adjacent numbers is: 70600674
